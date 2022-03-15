@@ -1,0 +1,106 @@
+@import url(/node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Wrap Container für Form (left) und Contact us (left)*/
+.wrap-con {
+    width: 60%;
+    height: 650px;
+    margin: 150px auto;
+    display: flex;
+    box-shadow: 2px 2px 10px 0 grey;
+    font-size: 15px;
+}
+.left, .right{
+    width: 50%;
+}
+/* Form Design*************************************** */
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.left {
+    background-image: linear-gradient(to left top, rgb(46, 46, 99) 0%, rgb(117, 59, 151) 60%);
+    color: white;
+}
+.form {
+    width: 80%;
+    margin: 60px auto;
+}
+.left input, textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.116);
+    font-size: 1.5em;
+    margin-top: 1em;    
+}
+.left input {
+    height: 2em;
+}
+.left textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+    min-height: 100px;
+}
+.left form  input::placeholder, .left form  textarea::placeholder  {
+    color: rgba(255, 255, 255, 0.459);
+    font-size: .8em;   
+}
+.left button {
+    display: block;
+    margin: 1.5em 0;
+    padding: 1em;
+    background-color: hotpink;
+    border: hidden;
+    border-radius: 8px;
+    color: white;
+}
+.left button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* Contact us Design*************************** */
+
+.right .h2box {
+    border-bottom: 3px solid palevioletred;
+    margin-right: 85%;
+    margin-bottom: 2em;
+}
+.right h2 {
+    margin-bottom: 0;
+}
+.right p {
+    color: rgb(121, 121, 121);
+    font-size: 1.1em;
+}
+.form div:nth-of-type(2) > p {
+    line-height: 30px;
+}
+.right .input-con {
+    display: flex; 
+    padding: 3em .6em 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.first-i {
+    padding-top: 1.4rem;
+}
+.icon{ 
+    margin-right: 1.5em ;
+    font-size: 1.2em;   
+}
+span {
+    color: black;
+    font-weight: bold;
+    padding-right: .5em;
+}
+
+

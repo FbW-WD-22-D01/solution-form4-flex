@@ -1,0 +1,22 @@
+{
+  "name": "form-4-dimilidi",
+  "version": "1.0.0",
+  "description": "- schau dir das Mockup an und versuche es möglichst genau nachzubauen - die Felder Email, Name und Subject sollten Pflichtfelder sein",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-WD-22-D01/form-4-dimilidi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-WD-22-D01/form-4-dimilidi/issues"
+  },
+  "homepage": "https://github.com/FbW-WD-22-D01/form-4-dimilidi#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.0"
+  }
+}
